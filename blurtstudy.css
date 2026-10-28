@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffeded;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+    min-height: 200vh;
+    overflow-y: auto;
+}
+
+h1 {
+font-size: 3rem;
+color: #a80101;
+margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #000000;
+    position: relative;
+    top: -20px;
+}
+
+.top-bar a {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 80px;
+background-color: #a80101;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: center;
+color:#ffffff;
+font-weight: bold;
+font-size: 3rem;
+text-decoration: none;
+}
+
+.blurtbox1 {
+  width: 650px;
+  min-height: 500px;
+  resize: none;
+  background-color: #ffdddd;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  padding: 16px;             
+  box-sizing: border-box;   
+  outline: none;             
+  margin: 0 auto;
+  text-align: left;
+  field-sizing: content;
+}
+
+.blurtbox2 {
+      width: 650px;
+  min-height: 500px;
+  resize: none;
+  background-color: #ffdddd;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  padding: 16px;             
+  box-sizing: border-box;   
+  outline: none;             
+  margin: 0 auto;
+  text-align: left;
+  field-sizing: content;
+}
+
+#BlurtSubmit {
+color:#ffffff;
+font-size: 1rem;
+background-color: #a80101;
+position: relative;
+left: 30px;
+top: -235px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 5px solid #a80101;
+outline: solid 5px black;
+text-decoration: none;
+padding: 5px 10px;
+}
+
+#BlurtSubmit2 {
+color:#ffffff;
+font-size: 1rem;
+background-color: #a80101;
+position: relative;
+left: 30px;
+top: -235px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 5px solid #a80101;
+outline: solid 5px black;
+text-decoration: none;
+padding: 5px 10px;
+}

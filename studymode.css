@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffeded;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+h1 {
+font-size: 3rem;
+color: #a80101;
+margin-bottom: 20px;
+}
+h3 {
+font-size: 1.2rem;
+color: #000000;
+margin-bottom: 20px;
+}
+
+.top-bar a {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 80px;
+background-color: #a80101;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: center;
+color:#ffffff;
+font-weight: bold;
+font-size: 3rem;
+text-decoration: none;
+}
+
+.btn-blurt { color:#ffffff;
+font-size: 1.5rem;
+background-color: #a80101;
+position: relative;
+margin: 0 auto;
+left: -20px;
+top: 40px;
+border-radius: 25px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 5px solid #a80101;
+outline: solid 5px black;
+text-decoration: none;
+padding: 5px 10px;
+}
+
+.btn-boxcard { color: #ffffff;
+font-size: 1.5rem;
+background-color:#a80101;
+position: relative;
+margin: 0 auto;
+top: 40px;
+border-radius: 25px;
+color: white;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+border: 5px solid #a80101;
+outline: solid 5px black;
+padding: 5px 10px;
+text-decoration: none;
+}
+
+.btn-quiz { color: #ffffff;
+font-size: 1.5rem;
+background-color:#a80101;
+position: relative;
+margin: 0 auto;
+left: 20px;
+top: 40px;
+border-radius: 25px;
+color: white;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+border: 5px solid #a80101;
+outline: solid 5px black;
+padding: 5px 10px;
+text-decoration: none;
+}

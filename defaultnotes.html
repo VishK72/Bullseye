@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Notes | Bullseye</title>
+    <link rel="stylesheet" href="defaultnotes.css">
+    <link rel="icon" type="image/png" href="tab-icon.png">
+</head>
+<body>
+<div class="top-bar"><a href="file:///C:/Users/vishv/OneDrive/Desktop/Bullseye/Homepage.html">Bullseye</a></div>
+<h1>Default Notes</h1>
+<br>
+<p>Standard, blank space to record information. Textbox will automatically expand.</p>
+<p>Bolden your text with Ctrl + B and underline it with Ctrl + U for more organized notes!</p>
+<br>
+<br>
+<div class="format-indicators">
+  <span id="bold-indicator">Bold: OFF</span> | 
+  <span id="underline-indicator">Underline: OFF</span>
+</div>
+  <div class="textbox1" contenteditable="true" placeholder="Type notes here..."></div>
+    
+
+  <script>
+const textbox = document.querySelector('.textbox1');
+const boldInd = document.getElementById('bold-indicator');
+const underlineInd = document.getElementById('underline-indicator');
+
+function checkFormatting() {
+  if (document.queryCommandState('bold')) {
+    boldInd.textContent = 'Bold: ON';
+    boldInd.classList.add('active-format');
+  } else {
+    boldInd.textContent = 'Bold: OFF';
+    boldInd.classList.remove('active-format');
+  }
+
+  if (document.queryCommandState('underline')) {
+    underlineInd.textContent = 'Underline: ON';
+    underlineInd.classList.add('active-format');
+  } else {
+    underlineInd.textContent = 'Underline: OFF';
+    underlineInd.classList.remove('active-format');
+  }
+}
+
+textbox.addEventListener('keyup', checkFormatting);
+textbox.addEventListener('mouseup', checkFormatting);
+textbox.addEventListener('input', checkFormatting);
+</script>
+</body>
+</html>
